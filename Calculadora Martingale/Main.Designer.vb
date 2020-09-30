@@ -33,6 +33,7 @@ Partial Class Main
         Me.Painel_Controle = New System.Windows.Forms.Panel()
         Me.Calcular_Ordens_btn = New System.Windows.Forms.Button()
         Me.TrackBar1 = New System.Windows.Forms.TrackBar()
+        Me.Martingale_Swith = New Calculadora_Martingale.VizualSwitch3()
         Me.Martingale_lbl = New System.Windows.Forms.Label()
         Me.Retorno_lbl = New System.Windows.Forms.Label()
         Me.Retorno_txb = New System.Windows.Forms.TextBox()
@@ -61,7 +62,6 @@ Partial Class Main
         Me.Painel_Informacoes = New System.Windows.Forms.Panel()
         Me.Writen_lbl = New System.Windows.Forms.Label()
         Me.Informacoe_lbl = New System.Windows.Forms.Label()
-        Me.Martingale_Swith = New Calculadora_Martingale.VizualSwitch3()
         Me.Panel1.SuspendLayout()
         CType(Me.Icon_Pic, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Minimize_Pic, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -193,6 +193,22 @@ Partial Class Main
         Me.TrackBar1.SmallChange = 0
         Me.TrackBar1.TabIndex = 0
         Me.TrackBar1.Value = 1
+        '
+        'Martingale_Swith
+        '
+        Me.Martingale_Swith.Checked = False
+        Me.Martingale_Swith.Colors = New Calculadora_Martingale.Bloom(-1) {}
+        Me.Martingale_Swith.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Martingale_Swith.Customization = ""
+        Me.Martingale_Swith.Font = New System.Drawing.Font("Verdana", 8.0!)
+        Me.Martingale_Swith.Image = Nothing
+        Me.Martingale_Swith.Location = New System.Drawing.Point(105, 195)
+        Me.Martingale_Swith.Name = "Martingale_Swith"
+        Me.Martingale_Swith.NoRounding = False
+        Me.Martingale_Swith.Size = New System.Drawing.Size(35, 19)
+        Me.Martingale_Swith.TabIndex = 0
+        Me.Martingale_Swith.Text = "VizualSwitch31"
+        Me.Martingale_Swith.Transparent = False
         '
         'Martingale_lbl
         '
@@ -503,9 +519,9 @@ Partial Class Main
         Me.Writen_lbl.ForeColor = System.Drawing.Color.MediumSpringGreen
         Me.Writen_lbl.Location = New System.Drawing.Point(339, 60)
         Me.Writen_lbl.Name = "Writen_lbl"
-        Me.Writen_lbl.Size = New System.Drawing.Size(142, 13)
+        Me.Writen_lbl.Size = New System.Drawing.Size(145, 13)
         Me.Writen_lbl.TabIndex = 11
-        Me.Writen_lbl.Text = "Writen By: Rômulo Meirelles."
+        Me.Writen_lbl.Text = "Written By: Rômulo Meirelles."
         '
         'Informacoe_lbl
         '
@@ -513,25 +529,9 @@ Partial Class Main
         Me.Informacoe_lbl.ForeColor = System.Drawing.Color.MediumSpringGreen
         Me.Informacoe_lbl.Location = New System.Drawing.Point(5, 14)
         Me.Informacoe_lbl.Name = "Informacoe_lbl"
-        Me.Informacoe_lbl.Size = New System.Drawing.Size(159, 13)
+        Me.Informacoe_lbl.Size = New System.Drawing.Size(166, 13)
         Me.Informacoe_lbl.TabIndex = 10
-        Me.Informacoe_lbl.Text = "INFORMÇÕES IMPORTANTES"
-        '
-        'Martingale_Swith
-        '
-        Me.Martingale_Swith.Checked = False
-        Me.Martingale_Swith.Colors = New Calculadora_Martingale.Bloom(-1) {}
-        Me.Martingale_Swith.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Martingale_Swith.Customization = ""
-        Me.Martingale_Swith.Font = New System.Drawing.Font("Verdana", 8.0!)
-        Me.Martingale_Swith.Image = Nothing
-        Me.Martingale_Swith.Location = New System.Drawing.Point(105, 195)
-        Me.Martingale_Swith.Name = "Martingale_Swith"
-        Me.Martingale_Swith.NoRounding = False
-        Me.Martingale_Swith.Size = New System.Drawing.Size(35, 19)
-        Me.Martingale_Swith.TabIndex = 0
-        Me.Martingale_Swith.Text = "VizualSwitch31"
-        Me.Martingale_Swith.Transparent = False
+        Me.Informacoe_lbl.Text = "INFORMAÇÕES IMPORTANTES"
         '
         'Main
         '
