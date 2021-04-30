@@ -1,4 +1,4 @@
-# Calc-Martingale
+# Calculadora Martingale para IQOption ou outras corretoras, Para várias aplicações!
 Calculadora Martingale para auxilio em Opções Binárias, Index e Futuros.
 
 PARA BAIXAR O BINARIO JA COMPILADO SEGUE O LINK ABAIXO.
